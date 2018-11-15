@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Kerem Bozdas']
   spec.email         = ['krmbzds.github@gmail.com']
 
-  spec.summary       = ''
-  spec.description   = ''
-  spec.homepage      = ''
+  spec.summary       = 'ViaBTC Exchange Server API Wrapper'
+  spec.description   = 'An HTTP Client to Interface with the Open-Source ViaBTC Exchange Server'
+  spec.homepage      = 'https://github.com/krmbzds/viabtc/'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
