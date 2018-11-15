@@ -1,6 +1,7 @@
 require 'viabtc/version'
-require 'viabtc/config'
 require 'viabtc/error'
+require 'viabtc/config'
+require 'viabtc/client'
 
-module ViaBTC
-end
+require 'faraday'
+require 'json'

@@ -9,7 +9,7 @@ module ViaBTC
   end
 
   class Configuration
-    attr_accessor :base_url
+    attr_accessor :base_url, :faraday_response, :faraday_adapter
 
     def initialize
       @base_url = nil
