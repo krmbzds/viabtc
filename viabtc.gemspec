@@ -24,8 +24,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  # So that we may be free (of json dependency)
-  spec.required_ruby_version = '>= 1.9.2'
+  # Ruby required keyword arguments
+  spec.required_ruby_version = '>= 2.1.0'
 
   # Runtime dependencies
   spec.add_dependency 'faraday', '~> 0.15.3'
