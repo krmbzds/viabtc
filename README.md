@@ -1,6 +1,6 @@
 # ViaBTC
 
-[![Build Status](https://travis-ci.org/krmbzds/viabtc.svg?branch=develop)](https://travis-ci.org/krmbzds/viabtc) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc)
+[![Build Status](https://travis-ci.org/krmbzds/viabtc.svg?branch=develop)](https://travis-ci.org/krmbzds/viabtc) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc)
 
 An HTTP client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo] API.
 
