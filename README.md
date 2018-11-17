@@ -1,5 +1,7 @@
 # ViaBTC
 
+[![Build Status](https://travis-ci.org/krmbzds/viabtc.svg?branch=develop)](https://travis-ci.org/krmbzds/viabtc)
+
 An HTTP client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo] API.
 
 ## Installation
