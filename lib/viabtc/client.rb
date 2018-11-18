@@ -68,7 +68,7 @@ module ViaBTC
       )
     end
 
-    def limit_buy(user_id:, market:, amount:, price:, taker_fee_rate:, source: 'web', id: 0)
+    def limit_buy(user_id:, market:, amount:, price:, taker_fee_rate:, maker_fee_rate:, source: 'web', id: 0)
       raise ViaBTC::Error::InvalidParameter, "invalid amount: #{amount}" unless amount_valid?(amount)
       raise ViaBTC::Error::InvalidParameter, "invalid fee rate #{taker_fee_rate}" unless fee_rate_valid?(taker_fee_rate)
       raise ViaBTC::Error::InvalidParameter, "invalid fee rate #{maker_fee_rate}" unless fee_rate_valid?(maker_fee_rate)
