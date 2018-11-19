@@ -3,20 +3,11 @@ module ViaBTC
     def initialize(base_url: nil, faraday_response: nil, faraday_adapter: nil)
       if ViaBTC.configuration
         base_url         ||= ViaBTC.configuration.base_url
-        faraday_response ||= ViaBTC.configuration.faraday_response || :logger
-        faraday_adapter  ||= ViaBTC.configuration.faraday_adapter  || :net_http
-      else
-        faraday_response ||= :logger
-        faraday_adapter  ||= :net_http
+        faraday_response ||= ViaBTC.configuration.faraday_response
+        faraday_adapter  ||= ViaBTC.configuration.faraday_adapter
       end
 
-      raise ViaBTC::Error::Configuration, 'required: base_url' unless base_url
-
-      @connection ||= Faraday.new(base_url) do |conn|
-        conn.response faraday_response
-        conn.adapter faraday_adapter
-        conn.headers['Content-Type'] = ['application/json']
-      end
+      @connection ||= connection(base_url, faraday_response, faraday_adapter)
     end
 
     # Asset API
@@ -178,6 +169,17 @@ module ViaBTC
     end
 
     private
+
+    def connection(base_url, faraday_response, faraday_adapter)
+      raise ViaBTC::Error::Configuration, 'required: base_url' unless base_url
+      faraday_response ||= :logger
+      faraday_adapter ||= :net_http
+      Faraday.new(base_url) do |conn|
+        conn.response faraday_response
+        conn.adapter faraday_adapter
+        conn.headers['Content-Type'] = ['application/json']
+      end
+    end
 
     def request(method:, params:, id: 0)
       response = @connection.post do |req|
