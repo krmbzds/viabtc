@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    viabtc (0.1.1)
+    viabtc (0.2.0)
       faraday (~> 0.15.3)
 
 GEM
