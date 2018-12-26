@@ -16,11 +16,12 @@ module ViaBTC
     end
 
     # ViaBTC Exchange Server General Error Codes
-    InvalidArgument    = Class.new(ExchangeError)  #  1: Invalid Argument
-    InternalError      = Class.new(ExchangeError)  #  2: Internal Error
-    ServiceUnavailable = Class.new(ExchangeError)  #  3: Service Unavailable
-    MethodNotFound     = Class.new(ExchangeError)  #  4: Method Not Found
-    ServiceTimeout     = Class.new(ExchangeError)  #  5: Service Timeout
+    InvalidArgument       = Class.new(ExchangeError)  #  1: Invalid Argument
+    InternalError         = Class.new(ExchangeError)  #  2: Internal Error
+    ServiceUnavailable    = Class.new(ExchangeError)  #  3: Service Unavailable
+    MethodNotFound        = Class.new(ExchangeError)  #  4: Method Not Found
+    ServiceTimeout        = Class.new(ExchangeError)  #  5: Service Timeout
+    RequireAuthentication = Class.new(ExchangeError)  #  6: Require Authentication
 
     # ViaBTC Exchange Server Undocumented Error Codes with Gotchas
 
