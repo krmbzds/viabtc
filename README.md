@@ -38,6 +38,12 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 ## Support
 
+#### Ruby Versions Tested Against
+
+- ✅ `2.6.0` (stable)
+- ✅ `2.5.3` (stable)
+- ✅ `2.4.5` (stable)
+- ⏳ `2.3.8` (security maintenance phase)
 
 #### ViaBTC Exchange Server API Support
 
