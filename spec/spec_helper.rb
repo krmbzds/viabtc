@@ -12,3 +12,7 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 end
+
+def generate_error(code, message)
+  {"error"=>{"code"=>code, "message"=>message}, "result"=>nil, "id"=>0}
+end
