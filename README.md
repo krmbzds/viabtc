@@ -14,64 +14,35 @@ If using **Rails**, create a file named `viabtc.rb` under `config/initializers` 
 
 ```rb
 ViaBTC.configure do |config|
-  config.base_url = 'http://localhost:18080'
-  config.faraday_response = :logger
-  config.faraday_adapter = :net_http
+  config.http_base_url = 'http://localhost:18080'
 end
 ```
 
-If not, add it anywhere in your code that runs before a new client is initialized.
+If not, add it anywhere in your code that runs before a new client is initialized. Read more at: 📖[Configuration Wiki](https://github.com/krmbzds/viabtc/wiki/Configuration)
 
 ## Usage
 
 Create a new instance:
 
 ```rb
-viabtc_client = ViaBTC::Client.new
+viabtc_http_client = ViaBTC::HTTP::Client.new
 ```
 
 Make an API request:
 
 ```rb
-viabtc_client.market_status(market: 'ETHBTC')
-```
+viabtc_http_client.market_status(market: 'ETHBTC')
 
-Market status example output:
-```rb
-{"error"=>nil, "result"=>{"low"=>"0", "period"=>86400, "last"=>"0", "high"=>"0", "open"=>"0", "volume"=>"0", "close"=>"0", "deal"=>"0"}, "id"=>0}
+#=> {"error"=>nil, "result"=>{"low"=>"0", "period"=>86400, "last"=>"0", "high"=>"0", "open"=>"0", "volume"=>"0", "close"=>"0", "deal"=>"0"}, "id"=>0}
 ```
 
 ## Support
 
-### API Actions
 
-#### HTTP Protocol
+#### ViaBTC Exchange Server API Support
 
-| API Method | Corresponding Methods |
-|---|---|
-| `balance.query` | `#balance` |
-| `balance.update` | `#withdraw` `#deposit` |
-| `balance.history` | `#balance_history`  |
-| `asset.list` | `#asset_list` |
-| `asset.summary` | `#asset_summary` |
-| `order.put_limit` | `#limit_sell` `#limit_buy` |
-| `order.put_market` | `#market_sell` `#market_buy` |
-| `order.cancel` | `#cancel_order` |
-| `order.deals` | `#order_deals` |
-| `order.book` | `#sell_orders` `#buy_orders` |
-| `order.depth` | `#order_depth` |
-| `order.pending` | `#pending_orders` |
-| `order.pending_detail` | `#pending_order_details` |
-| `order.finished` | `#finished_orders` `#finished_sell_orders` `#finished_buy_orders` |
-| `order.finished_detail` | `#finished_order_detail` |
-| `market.last` | `#market_last` |
-| `market.deals` | `#market_deals` |
-| `market.user_deals` | `#user_executed_orders` |
-| `market.kline` | `#market_kline` |
-| `market.status` | `#market_status` |
-| `market.status_today` | `#market_status_today` |
-| `market.list` | `#market_list` |
-| `market.summary` | `#market_summary` |
+- 📖 [HTTP Protocol](https://github.com/krmbzds/viabtc/wiki/API-Support#http-protocol)
+- 📖 [WebSocket Protocol](https://github.com/krmbzds/viabtc/wiki/API-Support#websocket-protocol)
 
 ## Development
 
