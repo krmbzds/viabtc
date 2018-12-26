@@ -1,8 +1,8 @@
-# ViaBTC
+# ViaBTC 📈
 
-[![Build Status](https://travis-ci.org/krmbzds/viabtc.svg?branch=develop)](https://travis-ci.org/krmbzds/viabtc) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc)
+[![Build Status](https://travis-ci.org/krmbzds/viabtc.svg?branch=develop)](https://travis-ci.org/krmbzds/viabtc) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc) [![RubyDoc](https://img.shields.io/badge/rubydoc-info-blue.svg)](https://www.rubydoc.info/gems/viabtc/)
 
-An HTTP client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo] API.
+An HTTP & WebSocket client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo].
 
 ## Installation
 
@@ -88,7 +88,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
 
-### Donations
+### Donations ❤️
 
 You can donate me at [Librepay][Donation]. Thanks! ☕️
 
