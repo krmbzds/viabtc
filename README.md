@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/krmbzds/viabtc.svg?branch=develop)](https://travis-ci.org/krmbzds/viabtc) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc) [![RubyDoc](https://img.shields.io/badge/rubydoc-info-blue.svg)](https://www.rubydoc.info/gems/viabtc/)
 
-An HTTP & WebSocket client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo].
+An HTTP client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo].
 
 ## Installation
 
@@ -40,7 +40,7 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 #### Ruby Versions Tested Against
 
-- ✅ `2.6.0` (stable)
+- ✅ `2.6.1` (stable)
 - ✅ `2.5.3` (stable)
 - ✅ `2.4.5` (stable)
 - ⏳ `2.3.8` (security maintenance phase)
