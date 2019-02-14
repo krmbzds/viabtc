@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    viabtc (0.3.0)
+    viabtc (0.4.0)
       faraday (~> 0.15.4)
 
 GEM
@@ -36,4 +36,4 @@ DEPENDENCIES
   viabtc!
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
