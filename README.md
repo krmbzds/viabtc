@@ -40,15 +40,13 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 #### Ruby Versions Tested Against
 
-- ✅ `2.6.1` (stable)
-- ✅ `2.5.3` (stable)
-- ✅ `2.4.5` (stable)
-- ⏳ `2.3.8` (security maintenance phase)
+- ✅ `2.6.3` (stable)
+- ✅ `2.5.5` (stable)
+- ⏳ `2.4.6` (security maintenance)
 
 #### ViaBTC Exchange Server API Support
 
 - 📖 [HTTP Protocol](https://github.com/krmbzds/viabtc/wiki/API-Support#http-protocol)
-- 📖 [WebSocket Protocol](https://github.com/krmbzds/viabtc/wiki/API-Support#websocket-protocol)
 
 ## Development
 
@@ -67,7 +65,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ### Donations ❤️
 
-You can donate me at [Librepay][Donation]. Thanks! ☕️
+You can donate me at [Liberapay][Donation]. Thanks! ☕️
 
 ## Is it any good?
 
