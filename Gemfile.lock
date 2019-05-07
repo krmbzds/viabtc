@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    viabtc (0.4.0)
+    viabtc (1.0.0)
       faraday (~> 0.15.4)
 
 GEM
@@ -18,7 +18,7 @@ GEM
       rspec-mocks (~> 3.8.0)
     rspec-core (3.8.0)
       rspec-support (~> 3.8.0)
-    rspec-expectations (3.8.2)
+    rspec-expectations (3.8.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-mocks (3.8.0)
