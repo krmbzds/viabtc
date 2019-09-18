@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    viabtc (1.0.0)
+    viabtc (1.1.0)
       faraday (~> 0.15.4)
 
 GEM
@@ -10,7 +10,7 @@ GEM
     diff-lcs (1.3)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
-    multipart-post (2.0.0)
+    multipart-post (2.1.1)
     rake (10.5.0)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
