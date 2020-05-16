@@ -6,7 +6,7 @@ RSpec.describe 'ViaBTC Configuration' do
 
     it 'raises error when instantiated no http_base_url' do
       options = { http_response: :logger, http_adapter: :net_http }
-      expect { ViaBTC::HTTP::Client.new(options) }.to raise_error(ViaBTC::Error::Configuration)
+      expect { ViaBTC::HTTP::Client.new(**options) }.to raise_error(ViaBTC::Error::Configuration)
     end
   end
 

@@ -25,10 +25,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Ruby required keyword arguments
-  spec.required_ruby_version = '>= 2.1.0'
+  spec.required_ruby_version = '>= 2.5.8'
 
   # Runtime dependencies
-  spec.add_dependency 'faraday', '~> 0.15.4'
+  spec.add_dependency 'faraday', '~> 1.0.1'
 
   # Development dependencies
   spec.add_development_dependency 'bundler'
