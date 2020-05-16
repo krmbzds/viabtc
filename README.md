@@ -40,9 +40,9 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 #### Ruby Versions Tested Against
 
-- ✅ `2.6.5` (stable)
-- ✅ `2.5.7` (stable)
-- ⏳ `2.4.9` (security maintenance)
+- ✅ `2.7.1` (stable)
+- ✅ `2.6.6` (stable)
+- ⏳ `2.5.8` (security maintenance)
 
 #### ViaBTC Exchange Server API Support
 
@@ -73,13 +73,13 @@ Yes.
 
 ## License
 
-Copyright © 2019 [Kerem Bozdas][Personal Webpage]
+Copyright © 2019-2020 [Kerem Bozdas][Personal Webpage]
 
 This gem is available under the terms of the [MIT License][License].
 
 [Donation]: https://liberapay.com/krmbzds/donate
 [Fork]: http://github.com/krmbzds/viabtc/fork
 [License]: http://kerem.mit-license.org
-[Personal Webpage]: http://kerembozdas.com
+[Personal Webpage]: https://kerembozdas.com
 [RubyGems]: https://rubygems.org
 [ViaBTC Exchange Server Repo]: https://github.com/viabtc/viabtc_exchange_server
