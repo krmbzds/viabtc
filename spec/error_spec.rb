@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 RSpec.configure do |config|
   config.include ViaBTC::Helpers
 end
 
 RSpec.describe 'ViaBTC Error Handling' do
-
   describe '#raise_exchange_error' do
     it 'raises InvalidArgument on error code 1' do
       error_response = generate_error(1, 'invalid argument')
@@ -68,7 +69,5 @@ RSpec.describe 'ViaBTC Error Handling' do
       error_response = generate_error(69, 'unknown error')
       expect { raise_exchange_error(error_response) }.to raise_error(ViaBTC::Error::ExchangeError)
     end
-
   end
-
 end

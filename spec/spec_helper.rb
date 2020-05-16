@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'bundler/setup'
 require 'viabtc'
 
@@ -14,5 +16,5 @@ RSpec.configure do |config|
 end
 
 def generate_error(code, message)
-  {"error"=>{"code"=>code, "message"=>message}, "result"=>nil, "id"=>0}
+  { 'error' => { 'code' => code, 'message' => message }, 'result' => nil, 'id' => 0 }
 end

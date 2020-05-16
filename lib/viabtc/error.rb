@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ViaBTC
   module Error
     # ViaBTC Module Error Classes

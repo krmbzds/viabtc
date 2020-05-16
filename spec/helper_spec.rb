@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.configure do |config|
   config.include ViaBTC::Helpers
 end
@@ -9,7 +11,7 @@ RSpec.describe ViaBTC::Helpers do
     end
 
     it 'returns false if response valid' do
-      expect(response_invalid?({"error"=>nil} )).to eql(false)
+      expect(response_invalid?({ 'error' => nil })).to eql(false)
     end
   end
 

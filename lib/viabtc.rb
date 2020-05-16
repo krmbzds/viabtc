@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'viabtc/version'
 require 'viabtc/error'
 require 'viabtc/config'

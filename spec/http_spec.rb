@@ -1,6 +1,7 @@
-RSpec.describe ViaBTC::HTTP::Client do
+# frozen_string_literal: true
 
-  let (:http_client) { ViaBTC::HTTP::Client.new(url: 'http://localhost:18080') }
+RSpec.describe ViaBTC::HTTP::Client do
+  let(:http_client) { ViaBTC::HTTP::Client.new(url: 'http://localhost:18080') }
 
   context 'when calling helper methods' do
     it 'can access response_invalid? method' do

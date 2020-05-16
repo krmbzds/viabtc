@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe 'ViaBTC Configuration' do
   context 'when no configuration set' do
     it 'raises error when instantiated no params' do

@@ -18,7 +18,7 @@ ViaBTC.configure do |config|
 end
 ```
 
-If not, add it anywhere in your code that runs before a new client is initialized. Read more at: 📖[Configuration Wiki](https://github.com/krmbzds/viabtc/wiki/Configuration)
+If not, add it anywhere in your code that runs before a new client is initialized. Read more at: 📖 [Configuration Wiki](https://github.com/krmbzds/viabtc/wiki/Configuration)
 
 ## Usage
 
