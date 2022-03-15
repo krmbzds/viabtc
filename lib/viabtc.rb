@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require 'viabtc/version'
-require 'viabtc/error'
-require 'viabtc/config'
-require 'viabtc/helpers'
-require 'viabtc/http'
+require "viabtc/version"
+require "viabtc/error"
+require "viabtc/config"
+require "viabtc/helpers"
+require "viabtc/http"
 
-require 'faraday'
-require 'json'
+require "faraday"
+require "json"

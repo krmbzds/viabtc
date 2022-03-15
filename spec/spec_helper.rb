@@ -1,11 +1,14 @@
 # frozen_string_literal: true
 
-require 'bundler/setup'
-require 'viabtc'
+require "coveralls"
+Coveralls.wear!
+
+require "bundler/setup"
+require "viabtc"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
-  config.example_status_persistence_file_path = '.rspec_status'
+  config.example_status_persistence_file_path = ".rspec_status"
 
   # Disable RSpec exposing methods globally on `Module` and `main`
   config.disable_monkey_patching!
@@ -16,5 +19,5 @@ RSpec.configure do |config|
 end
 
 def generate_error(code, message)
-  { 'error' => { 'code' => code, 'message' => message }, 'result' => nil, 'id' => 0 }
+  {"error" => {"code" => code, "message" => message}, "result" => nil, "id" => 0}
 end

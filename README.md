@@ -1,6 +1,6 @@
 # ViaBTC 📈
 
-[![Build Status](https://travis-ci.org/krmbzds/viabtc.svg?branch=develop)](https://travis-ci.org/krmbzds/viabtc) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc) [![RubyDoc](https://img.shields.io/badge/rubydoc-info-blue.svg)](https://www.rubydoc.info/gems/viabtc/)
+[![Build Status](https://img.shields.io/github/workflow/status/krmbzds/viabtc/Test/develop)](https://github.com/krmbzds/viabtc/actions/workflows/test.yml) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Coveralls](https://img.shields.io/coveralls/github/krmbzds/viabtc/develop)](https://coveralls.io/github/krmbzds/viabtc?branch=develop) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc) [![RubyDoc](https://img.shields.io/badge/rubydoc-info-blue.svg)](https://www.rubydoc.info/gems/viabtc/)
 
 An HTTP client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo].
 
@@ -40,9 +40,10 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 #### Ruby Versions Tested Against
 
-- ✅ `2.7.1` (stable)
-- ✅ `2.6.6` (stable)
-- ⏳ `2.5.8` (security maintenance)
+- ✅ `3.1.1` (stable)
+- ✅ `3.0.3` (stable)
+- ✅ `2.7.5` (stable)
+- ⏳ `2.6.9` (security maintenance)
 
 #### ViaBTC Exchange Server API Support
 
@@ -73,7 +74,7 @@ Yes.
 
 ## License
 
-Copyright © 2019-2020 [Kerem Bozdas][Personal Webpage]
+Copyright © 2019-2022 [Kerem Bozdas][Personal Webpage]
 
 This gem is available under the terms of the [MIT License][License].
 
