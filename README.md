@@ -1,6 +1,6 @@
 # ViaBTC 📈
 
-[![Build Status](https://img.shields.io/github/workflow/status/krmbzds/viabtc/Test/develop)](https://github.com/krmbzds/viabtc/actions/workflows/test.yml) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Coveralls](https://img.shields.io/coveralls/github/krmbzds/viabtc/develop)](https://coveralls.io/github/krmbzds/viabtc?branch=develop) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc) [![RubyDoc](https://img.shields.io/badge/rubydoc-info-blue.svg)](https://www.rubydoc.info/gems/viabtc/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/krmbzds/viabtc/test.yml?branch=develop)](https://github.com/krmbzds/viabtc/actions/workflows/test.yml) [![Downloaded](https://img.shields.io/gem/dt/viabtc.svg)](https://rubygems.org/gems/viabtc) [![Coveralls](https://img.shields.io/coveralls/github/krmbzds/viabtc/develop)](https://coveralls.io/github/krmbzds/viabtc?branch=develop) [![Gem Version](https://img.shields.io/gem/v/viabtc.svg)](https://rubygems.org/gems/viabtc) [![RubyDoc](https://img.shields.io/badge/rubydoc-info-blue.svg)](https://www.rubydoc.info/gems/viabtc/)
 
 An HTTP client to interface with the open-source [ViaBTC Exchange Server][ViaBTC Exchange Server Repo].
 
@@ -74,7 +74,7 @@ Yes.
 
 ## License
 
-Copyright © 2019-2022 [Kerem Bozdas][Personal Webpage]
+Copyright © 2019-2023 [Kerem Bozdas][Personal Webpage]
 
 This gem is available under the terms of the [MIT License][License].
 
