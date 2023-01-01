@@ -40,14 +40,40 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 #### Ruby Versions Tested Against
 
-- ✅ `3.1.1` (stable)
-- ✅ `3.0.3` (stable)
-- ✅ `2.7.5` (stable)
-- ⏳ `2.6.9` (security maintenance)
+- ✅ `3.2.0` (stable)
+- ✅ `3.1.3` (stable)
+- ✅ `3.0.5` (stable)
+- ⏳ `2.7.7` (security maintenance)
 
 #### ViaBTC Exchange Server API Support
 
 - 📖 [HTTP Protocol](https://github.com/krmbzds/viabtc/wiki/API-Support#http-protocol)
+
+| API Method | Corresponding Methods |
+|---|---|
+| `balance.query` | `#balance` |
+| `balance.update` | `#withdraw` `#deposit` |
+| `balance.history` | `#balance_history`  |
+| `asset.list` | `#asset_list` |
+| `asset.summary` | `#asset_summary` |
+| `order.put_limit` | `#limit_sell` `#limit_buy` |
+| `order.put_market` | `#market_sell` `#market_buy` |
+| `order.cancel` | `#cancel_order` |
+| `order.deals` | `#order_deals` |
+| `order.book` | `#sell_orders` `#buy_orders` |
+| `order.depth` | `#order_depth` |
+| `order.pending` | `#pending_orders` |
+| `order.pending_detail` | `#pending_order_details` |
+| `order.finished` | `#finished_orders` `#finished_sell_orders` `#finished_buy_orders` |
+| `order.finished_detail` | `#finished_order_detail` |
+| `market.last` | `#market_last` |
+| `market.deals` | `#market_deals` |
+| `market.user_deals` | `#user_executed_orders` |
+| `market.kline` | `#market_kline` |
+| `market.status` | `#market_status` |
+| `market.status_today` | `#market_status_today` |
+| `market.list` | `#market_list` |
+| `market.summary` | `#market_summary` |
 
 ## Development
 
