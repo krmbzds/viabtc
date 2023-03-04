@@ -40,7 +40,7 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 #### Ruby Versions Tested Against
 
-- ✅ `3.2.0` (stable)
+- ✅ `3.2.1` (stable)
 - ✅ `3.1.3` (stable)
 - ✅ `3.0.5` (stable)
 - ⏳ `2.7.7` (security maintenance)
@@ -100,7 +100,7 @@ Yes.
 
 ## License
 
-Copyright © 2019-2023 [Kerem Bozdas][Personal Webpage]
+Copyright © 2018-2023 [Kerem Bozdas][Personal Webpage]
 
 This gem is available under the terms of the [MIT License][License].
 
