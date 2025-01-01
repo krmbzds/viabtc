@@ -40,10 +40,11 @@ viabtc_http_client.market_status(market: 'ETHBTC')
 
 #### Ruby Versions Tested Against
 
-- ✅ `3.2.2` (stable)
-- ✅ `3.1.4` (stable)
-- ⏳ `3.0.6` (security maintenance)
-- 🪦 `2.7.8` (end of life)
+- ✅ `3.4.1` (stable)
+- ✅ `3.3.6` (stable)
+- ✅ `3.2.6` (stable)
+- ⏳ `3.1.6` (security maintenance)
+- 🪦 `3.0.7` (end of life)
 
 #### ViaBTC Exchange Server API Support
 
@@ -100,7 +101,7 @@ Yes.
 
 ## License
 
-Copyright © 2018-2023 [Kerem Bozdas][Personal Webpage]
+Copyright © 2018-2025 [Kerem Bozdas][Personal Webpage]
 
 This gem is available under the terms of the [MIT License][License].
 
